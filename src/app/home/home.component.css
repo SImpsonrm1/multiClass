@@ -1,0 +1,43 @@
+/* Add this URL at the top of your styles.css to import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container {
+  background: url('img1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+  color: #fff;
+  padding: 20px;
+  border-radius: 0px;
+  text-align: center;
+}
+.loading {
+  background-color: #1DB954;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  animation: loadingAnimation 1.5s linear infinite;
+}
+
+button {
+  background-color: #1DB954; /* Spotify Green */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.reset-button {
+  background-color: #e63946; /* A red shade for reset */
+}

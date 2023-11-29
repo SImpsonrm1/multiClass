@@ -1,0 +1,9 @@
+<div class="bio-container">
+  <div class="team-member" *ngFor="let member of teamMembers">
+    <img [src]="member.photo" >
+    <div class="info">
+      <h3>{{member.name}}</h3>
+      <p>{{member.description}}</p>
+    </div>
+  </div>
+</div>

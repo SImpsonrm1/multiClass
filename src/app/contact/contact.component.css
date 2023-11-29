@@ -1,0 +1,23 @@
+.contact-container {
+  background: url('img3.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+label, input, textarea, button {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}

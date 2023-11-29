@@ -1,0 +1,27 @@
+<!-- Contact Form -->
+<div class="contact-container">
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <label for="name">Name:</label>
+  <input id="name" formControlName="name" type="text">
+
+  <label for="number">Number:</label>
+  <input id="number" formControlName="number" type="text">
+
+  <label for="email">Email:</label>
+  <input id="email" formControlName="email" type="email">
+
+  <label for="description">Description:</label>
+  <textarea id="description" formControlName="description"></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+</div>
+<!-- Display saved forms (for developers) -->
+<div *ngFor="let form of savedForms">
+  <h3>Saved Form</h3>
+  <p>Name: {{ form.name }}</p>
+  <p>Number: {{ form.number }}</p>
+  <p>Email: {{ form.email }}</p>
+  <p>Description: {{ form.description }}</p>
+</div>

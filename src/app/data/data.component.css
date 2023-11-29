@@ -1,0 +1,18 @@
+.data-container {
+  background: url('img3.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  height: 100vh; /* Adjust as necessary */
+}
+
+.report-frame {
+  width: 95%; /* Adjust as necessary */
+  height: 95%; /* Adjust as necessary */
+  border: none;
+}
